@@ -18,6 +18,10 @@ public class Histogram <String> {
     public void increment(String key, int value) {
         map.put(key, map.containsKey(key) ? map.get(key)+1:1);
     }
+
+    public void increment(String domain1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }
